@@ -99,7 +99,6 @@ class TestVarasto(unittest.TestCase):
 
       self.assertAlmostEqual(saatu_maara, 8)
 
-
     def test_isomman_maaran_ottaminen_kuin_saldo_nollaa_saldon(self):
       self.varasto.lisaa_varastoon(8)
 
