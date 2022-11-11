@@ -22,11 +22,24 @@ class Varasto:
 
     def lisaa_varastoon(self, maara):
         if maara < 0:
+            if maara < -100:
+                if maara < -10:
+                    pass
             return
         if maara <= self.paljonko_mahtuu():
             self.saldo = self.saldo + maara
         else:
             self.saldo = self.tilavuus
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
+        print("Lorem ipsum")
 
     def ota_varastosta(self, maara):
         if maara < 0:
